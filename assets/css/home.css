@@ -1,0 +1,70 @@
+.home-bg-photo {
+    background-image: url("../images/home-page-bg.jpg");
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding-top: 70px;
+    /* height: calc(100vh - 70px); */
+}
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: var(--title);
+    margin-top: 20vh;
+}
+
+.header-photographer {
+    font-family: var(--heading);
+    font-size: 28px;
+    padding: 20px 10px;
+}
+
+.header-comment {
+    font-family: var(--text);
+    padding: 0 10px;
+}
+
+.home-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: var(--subtext);
+    margin: 10vh 0;
+}
+
+.home-text-gz{
+    font-family: var(--heading);
+    font-weight: bold;
+    margin-top: 50px;
+    font-size: 20px;
+    letter-spacing: 1.1px;
+}
+
+.home-subtext {
+    font-family: var(--text);
+    margin-top: 20px;
+}
+
+.home-subtext p {
+    padding: 2px 0;
+}
+
+.btn {
+    display: inline-block;
+    background-color: white;
+    border: none;
+    block-size: 25px;
+    font-size: 16px;
+}
+
+.btn:hover {
+    /* color: var(--accent); */
+    color: white;
+    background-color: var(--accent);
+}
