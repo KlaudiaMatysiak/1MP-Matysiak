@@ -35,3 +35,4 @@ I decided to choose simple layout with two main colors, such as light powder pin
 * https://www.freelogodesign.org/
 ### Code
 * [Dropdown submenu](https://www.w3schools.com/css/css_dropdowns.asp) 
+* [CSS reset](https://meyerweb.com/eric/tools/css/reset/)
