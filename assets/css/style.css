@@ -12,6 +12,7 @@ body {
     --text: 'Roboto', sans-serif;
 }
 
+/*----------------------------------- Menu Navbar */
 .main-nav {
    background-color: rgba(239, 219, 216, 0.98);
    position: fixed;
@@ -56,24 +57,43 @@ body {
     width: 40px;
 }
 
-.submenu-list {
+.dropdown-content {
+    display: none;
     position: absolute;
-    opacity: 0;
+    background-color: var(--main);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
 }
 
-.footer{
+.dropdown-content ul li {
+    color: var(--menuItem);
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: var(--accent);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*----------------------------------- Footer */
+footer{
     padding: 25px 25px 0 25px;
     color: var(--footer);
 }
 
-.footer i {
+footer i {
     color: var(--footer);
     text-decoration: none;
     font-size: 42px;
     padding: 10px;
 }
 
-.footer i:hover {
+footer i:hover {
     color: var(--accent)
 }
 

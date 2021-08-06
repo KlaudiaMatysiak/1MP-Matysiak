@@ -56,12 +56,15 @@ header {
 }
 
 .btn {
+    text-decoration: none;
     display: inline-block;
     background-color: white;
     border: none;
     block-size: 25px;
     font-size: 16px;
+    color: var(--text);
 }
+
 
 .btn:hover {
     /* color: var(--accent); */
