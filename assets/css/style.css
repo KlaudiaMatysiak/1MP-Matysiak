@@ -12,6 +12,23 @@ body {
     --text: 'Roboto', sans-serif;
 }
 
+/*----------------------------------- General */
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--heading);
+    color: var(--title)
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--text);
+    color: var(--subtext)
+}
+
 /*----------------------------------- Menu Navbar */
 .main-nav {
    background-color: rgba(239, 219, 216, 0.98);
