@@ -1,0 +1,22 @@
+/* ------------------------------- Title */
+.portfolio-title {
+    padding: 60px 0 0 0;
+    font-size: 12vh;
+    color: var(--subtitle);
+    background-color: rgba(240, 248, 255, 0.5);
+    height: inherit
+}
+
+.portfolio-bg {
+    background-image: url("../images/portfolio-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40vh;
+}
+
+/* ------------------------------- Content */
+h2 {
+    font-size: 24px;
+}
+
