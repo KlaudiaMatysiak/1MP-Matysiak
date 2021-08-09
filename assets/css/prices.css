@@ -1,0 +1,57 @@
+/* ------------------------------- Title */
+.prices-title {
+    padding: 60px 0 0 0;
+    font-size: 12vh;
+    color: var(--subtitle);
+    background-color: rgba(240, 248, 255, 0.5);
+    height: inherit
+}
+
+.prices-bg {
+    background-image: url("../images/prices-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40vh;
+}
+
+/* ------------------------------- Content */
+.offer {
+    padding: 10vmin;
+    background-color: var(--main);
+    margin: 5vh;
+}
+
+.subtitle-offer {
+    font-size: 28px;
+    padding: 20px 0 20px 0;
+}
+
+.standard-package {
+    padding: 10px;
+    margin: 0 0 20px 0;
+    border: var(--subtitle) solid;
+}
+
+.premium-package {
+    padding: 10px;
+    border: var(--subtitle) solid;
+}
+
+.price {
+    font-weight: bold;
+    padding: 10px;
+}
+
+p i {
+    padding: 5px;
+}
+
+.subtitle-addons {
+    padding: 10px;
+}
+
+img {
+    height: 15vh;
+}
+
