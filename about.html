@@ -14,6 +14,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover.css" integrity="sha512-Qg72y9f1a3aVc1FVnjq5YURLOOG8fDKQjMnhxYaZgBz4nIVjpVOBUtuMMMqkZPS1FlVrzzEBXq2sM6Qp1zen/Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/home.css">
@@ -23,12 +26,12 @@
 </head>
 <body>
     <nav class="main-nav">
-        <img class="logo" alt="logo" src="assets/images/kmlogo.png">
-        <i class="fas fa-bars hamburger"></i>
-        <ul class="menu-list">
+        <a href="index.html"><img class="logo" alt="logo" src="assets/images/kmlogo.png"></a>
+        <button class="hamburger" id="hamburger"><i class="fas fa-bars"></i></button>
+        <ul class="menu-list" id="menu-list">
             <li class="menu-item"><a href="index.html"><span>Home</span></a></li>
             <li class="menu-item">
-                <a href="portfolio.html"><span>Wedding</span></a>
+                <a><span>Wedding</span></a>
                 <ul class="submenu-list">
                     <li class="submenu-item"><a href="portfolio.html">Portfolio</a></li>
                     <li class="submenu-item"><a href="prices.html">Packages & Prices</a></li>
@@ -40,30 +43,24 @@
             <li class="menu-item"><a href="contact.html"><span>Contact</span></a></li>
         </ul>
     </nav>
-    <section class="about-bg">
-        <h2 class="about-title">About</h2>
+    <section class="bg about-bg">
+        <h2 class="title">About</h2>
     </section>
     <section class="about-section">
         <h2 class="krystine">Hi, I'm Krystine Monté!</h2>
-        <div >
-            <div>
-                <img class="about-photo" src="/assets/images/photo-about.jpg" alt="Krystine-Monté-photo">
-            </div>
+        <div class="about-story">
+            <img class="about-photo" src="assets/images/photo-about.jpg" alt="Krystine-Monté-photo">
             <div class="about-text">
-                <p>
-                    I'm a young photographer with 8 years of experience based in Cardiff, South Wales. I started my career as 17 years old from a small village close to Cardiff. I had a lot of support from my family and friends to start my photography journey. I love my job, it gives me satisfaction and joy. It's a great feeling to keep someone's best memories of one of the important days in their life into a photograph.
-                </p>
-                <p>
-                    I've photographed 150+ weddings and in this time I've really sharpened my skills to photograph the greatest and beautiful moments that happen throughout a wedding day. Weddings are about relationships, emotions and family connections, I do my best work to capture them for you.
-                </p>
-                <p>
-                    In my spare time I really love riding a horse and being in nature with my family. I do have a lovely husband and two little girls. We spend our time together camping or sightseeing in cities. As a photographer I believe that we have to live our life with the loved ones as much as we can. I know that memories are very precious and important and that's the main reason I became a wedding photographer.
-                </p>
+                <p>I'm a young photographer with 8 years of experience based in Cardiff, South Wales. I started my career as 17 years old from a small village close to Cardiff. I had a lot of support from my family and friends to start my photography journey. I love my job, it gives me satisfaction and joy. It's a great feeling to keep someone's best memories of one of the important days in their life into a photograph.</p>
+                <p>I've photographed 150+ weddings and in this time I've really sharpened my skills to photograph the greatest and beautiful moments that happen throughout a wedding day. Weddings are about relationships, emotions and family connections, I do my best work to capture them for you.</p>
+                <p>In my spare time I really love riding a horse and being in nature with my family. I do have a lovely husband and two little girls. We spend our time together camping or sightseeing in cities. As a photographer I believe that we have to live our life with the loved ones as much as we can. I know that memories are very precious and important and that's the main reason I became a wedding photographer.</p>
             </div>
         </div>
     </section>
-    <div class="contact-btn">
-        <a href="contact.html">Get in touch</a>
+    <div class="btn-wrapper">
+        <div class="btn hvr-float">
+            <a href="contact.html">Contact me</a>
+        </div>
     </div>
     <footer>
         <a href="http://facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
@@ -71,5 +68,7 @@
         <a href="http://tiktok.com" target="_blank"><i class="fab fa-tiktok"></i></a>
         <span class="copyright">2021 © Klaudia Matysiak</span>
     </footer>
+    <script type="text/javascript" src="jquery-3.3.1.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

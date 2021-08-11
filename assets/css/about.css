@@ -1,41 +1,29 @@
 /* ------------------------------- Title */
-.about-title {
-    padding: 60px 0 0 0;
-    font-size: 12vh;
-    color: var(--subtitle);
-    background-color: rgba(240, 248, 255, 0.5);
-    height: inherit
-}
-
 .about-bg {
     background-image: url("../images/about-bg.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 40vh;
 }
 
 /* ------------------------------- Content */
 .about-section {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 30px;
+    flex-direction: column;
+    align-items: center;
+    margin: 10vh 0;
 }
 
 .krystine {
-    padding: 5px;
-    font-size: 28px;
+    padding: 40px;
+    font-size: 34px;
 }
 
 .about-photo {
-    max-width: 400px;
-    max-height: 400px;
-    padding: 10px;
+    max-width: 380px;
+    max-height: 380px;
+    padding: 5px;
 }
 
 .about-text {
-    padding: 10px;
+    padding: 5px;
 }
 
 .about-text p {
@@ -43,11 +31,40 @@
     text-align: justify;
 }
 
-.contact-btn {
-    display: flex;
-    justify-content: center;
+.btn-wrapper {
+    padding: 20px;
 }
 
-/* @media only screen and (min-width: 600px) {
+@media only screen and (min-width: 960px) {
+    .about-text {
+        float: left;
+        max-width: 70vh;
+    }
+}
 
-} */
+@media only screen and (max-width: 960px) {
+    .about-story {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-photo {
+        padding-bottom: 20px;
+    }
+
+    .about-text {
+        max-width: 60vh;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .about-photo {
+        padding: 0;
+    }
+
+    .about-text {
+        padding-top: 10px;
+        max-width: 50vh;
+    }
+}
