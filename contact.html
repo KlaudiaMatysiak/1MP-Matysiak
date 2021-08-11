@@ -14,6 +14,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover.css" integrity="sha512-Qg72y9f1a3aVc1FVnjq5YURLOOG8fDKQjMnhxYaZgBz4nIVjpVOBUtuMMMqkZPS1FlVrzzEBXq2sM6Qp1zen/Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/contact.css">
@@ -22,12 +25,12 @@
 </head>
 <body>
     <nav class="main-nav">
-        <img class="logo" alt="logo" src="assets/images/kmlogo.png">
-        <i class="fas fa-bars hamburger"></i>
-        <ul class="menu-list">
+        <a href="index.html"><img class="logo" alt="logo" src="assets/images/kmlogo.png"></a>
+        <button class="hamburger" id="hamburger"><i class="fas fa-bars"></i></button>
+        <ul class="menu-list" id="menu-list">
             <li class="menu-item"><a href="index.html"><span>Home</span></a></li>
             <li class="menu-item">
-                <a href="portfolio.html"><span>Wedding</span></a>
+                <a><span>Wedding</span></a>
                 <ul class="submenu-list">
                     <li class="submenu-item"><a href="portfolio.html">Portfolio</a></li>
                     <li class="submenu-item"><a href="prices.html">Packages & Prices</a></li>
@@ -39,34 +42,34 @@
             <li class="menu-item"><a href="contact.html"><span>Contact</span></a></li>
         </ul>
     </nav>
-    <section class="contact-bg">
-        <h2 class="contact-title">Contact</h2>
+    <section class="bg contact-bg">
+        <h2 class="title">Contact</h2>
     </section>
     <section>
         <form method="post" action="https://formdump.codeinstitute.net/">
-            <label for="fname">First name:</label><br>
+            <label for="fname">First name:<span class="red-text">*</span></label><br>
             <input type="text" id="fname" name="fname" required><br>
-            <label for="email">Email:</label><br>
+            <label for="email">Email:<span class="red-text">*</span></label><br>
             <input type="email" id="email" name="email" required><br>
-            <label for="mobile">Mobile:</label><br>
+            <label for="mobile">Mobile:<span class="red-text">*</span></label><br>
             <input type="text" id="mobile" name="mobile" required><br>
-            <label for="date">Wedding date:</label><br>
+            <label for="date">Wedding date:<span class="red-text">*</span></label><br>
             <input type="datetime-local" id="date" name="date" required><br>
-            <label for="venue">Reception Venue:</label><br>
+            <label for="venue">Reception Venue:<span class="red-text">*</span></label><br>
             <input type="text" id="venue" name="venue" required><br>
             <label for="how">How did you find me?</label><br>
-            <input type="radio" id="fb" name="fb" required>
+            <input type="checkbox" id="fb" name="how">
             <label for="fb">Facebook</label><br>
-            <input type="radio" id="ig" name="ig">
+            <input type="checkbox" id="ig" name="how">
             <label for="ig">Instagram</label><br>
-            <input type="radio" id="tt" name="tt">
+            <input type="checkbox" id="tt" name="how">
             <label for="tt">TikTok</label><br>
-            <input type="radio" id="google" name="google">
+            <input type="checkbox" id="google" name="how">
             <label for="google">Google</label><br>
-            <input type="radio" id="other" name="other">
+            <input type="checkbox" id="other" name="how">
             <label for="other">Other</label><br>
             <label for="tell-me">Tell me more about you and your vision for a wedding day</label><br>
-            <textarea id="tell-me" name="tell=me" rows="4" cols="50">
+            <textarea id="tell-me" name="tell-me" rows="4" cols="50">
                 
             </textarea>
             <input type="submit" value="Submit">
@@ -78,5 +81,7 @@
         <a href="http://tiktok.com" target="_blank"><i class="fab fa-tiktok"></i></a>
         <span class="copyright">2021 © Klaudia Matysiak</span>
     </footer>
+    <script type="text/javascript" src="jquery-3.3.1.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
