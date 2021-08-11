@@ -1,11 +1,11 @@
-body {
+:root {
     /* Colors */
     --main: #efdbd8;
     --accent: #e0c9c6;
     --menuItem: #1b1b1b;
     --title: #222222;
     --subtitle: #ffffff;
-    --subtext: #2c2c2c;
+    --subtext: #484848;
     --footer: #6b6665;
 
     /* Fonts */
@@ -15,19 +15,32 @@ body {
 
 /*----------------------------------- General */
 h2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-family: var(--heading);
     color: var(--title)
 }
 
 p {
+    font-family: var(--text);
+    color: var(--subtext)
+}
+
+.bg {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40vh;
+}
+
+.title {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: var(--text);
-    color: var(--subtext)
+    padding: 60px 0 0 0;
+    font-size: 12vh;
+    color: var(--subtitle);
+    background-color: rgba(240, 248, 255, 0.5);
+    height: inherit;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 /*----------------------------------- Menu Navbar */
@@ -101,8 +114,31 @@ p {
     display: block;
 }
 
+/*----------------------------------- Style for button */
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    display: block;
+	width: 9em;
+	height: 2em;
+    border-radius: 1em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.247);
+    background-image: linear-gradient(to right,#efdbd8, #f4e2d8);
+	line-height: 2;
+	text-align: center;
+    font-family: var(--text);
+}
+
+.btn a {
+    text-decoration: none;
+    color: var(--subtext);
+}
+
 /*----------------------------------- Footer */
-footer{
+footer {
     padding: 25px 25px 0 25px;
     color: var(--footer);
 }
@@ -142,12 +178,17 @@ footer i:hover {
 
 @media only screen and (max-width: 480px) {
     .menu-list {
+        display: block;
         position: absolute;
         width: 100%;
         top: 100%;
-        display: block;
+        display: none;
         height: auto;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+
+    .menu-list.show {
+        display: block;
     }
 
     .menu-item {
@@ -169,7 +210,6 @@ footer i:hover {
         position: relative;
         width: 100%;
         box-shadow: none;
-        
     }
 
     .submenu-list a {
@@ -183,6 +223,13 @@ footer i:hover {
         top: 50%;
         transform: translateY(-50%);
         font-size: 36px;
+        cursor: pointer;
+        background-color: transparent;
+        border: 0;
+    }
+
+    .hamburger:focus {
+        outline: none;
     }
 
     footer {

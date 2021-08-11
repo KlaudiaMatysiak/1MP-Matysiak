@@ -14,6 +14,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover.css" integrity="sha512-Qg72y9f1a3aVc1FVnjq5YURLOOG8fDKQjMnhxYaZgBz4nIVjpVOBUtuMMMqkZPS1FlVrzzEBXq2sM6Qp1zen/Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/home.css">
@@ -22,12 +25,12 @@
 </head>
 <body>
     <nav class="main-nav">
-        <img class="logo" alt="logo" src="assets/images/kmlogo.png">
-        <i class="fas fa-bars hamburger"></i>
-        <ul class="menu-list">
+        <a href="index.html"><img class="logo" alt="logo" src="assets/images/kmlogo.png"></a>
+        <button class="hamburger" id="hamburger"><i class="fas fa-bars"></i></button>
+        <ul class="menu-list" id="menu-list">
             <li class="menu-item"><a href="index.html"><span>Home</span></a></li>
             <li class="menu-item">
-                <a href="portfolio.html"><span>Wedding</span></a>
+                <a><span>Wedding</span></a>
                 <ul class="submenu-list">
                     <li class="submenu-item"><a href="portfolio.html">Portfolio</a></li>
                     <li class="submenu-item"><a href="prices.html">Packages & Prices</a></li>
@@ -42,19 +45,33 @@
     <section class="home-bg-photo">
         <header>
             <h1 class="header-photographer">Wedding Photographer Cardiff, Wales</h1>
-            <p class="header-comment">Fun, Relaxed and Natural</p>
+            <p class="header-comment">Fun, Relaxed, and Natural</p>
         </header>
     </section>
-    <section class="home-text">
-        <h2 class="home-text-gz">Congratulations on your engagement!</h2>
-        <div class="home-subtext">
-            <p>That's a wonderful time for you both.</p>
-            <p>Take your time and have a look at my</p>
-            <p>
-                <a href="prices.html" class="btn">offer</a> and 
-                <a href="portfolio.html" class="btn">portfolio</a> or 
-                <a href="contact.html" class="btn">contact me</a> !
-            </p>
+    <section class="home-section">
+        <div class="home-content">
+            <h2 class="home-text-gz">Congratulations!</h2>
+            <div class="home-subtext">
+                <p>I’m so happy that you have found the one person that you want to share your life with. I hope you'll find yourself 20 years later, happier and more in love than you ever dreamed possible. I could take this opportunity to give you helpful hints on making your wedding day a “photographic success”.</p>
+                <p>Choose a photographer that you like! Your photographers will be about as close to you on your wedding day as any of your family, wedding party, or other vendors. They will be there from the getting ready to the going away, so they need to bring a positive energy to your experience. </p>
+                <p>The best advice I can give you regarding your wedding day is – HAVE FUN! Yes, this is one of the most important days of your life and it is easy to get caught up in the stress of making it perfect. However, go ahead and accept the fact that something is not going to go as you’ve planned. It will still be a perfect day! Surround yourself with people who are going to be reliable, helpful, and dedicated to you.</p>
+            </div>
+        </div>
+        <h2 class="next">What's next?</h2>
+        <div class="btn-wrapper">
+            <div class="btn hvr-float">
+                <a href="contact.html">Contact me</a>
+            </div>
+        </div>
+        <div class="btn-wrapper">
+            <div class="btn hvr-float">
+                <a href="contact.html">Check my portfolio</a>
+            </div>
+        </div>
+        <div class="btn-wrapper">
+            <div class="btn hvr-float">
+                <a href="contact.html">Look at my offer</a>
+            </div>
         </div>
     </section>
     <footer>
@@ -63,5 +80,7 @@
         <a href="http://tiktok.com" target="_blank"><i class="fab fa-tiktok"></i></a>
         <span class="copyright">2021 © Klaudia Matysiak</span>
     </footer>
+    
+    <script src="script.js"></script>
 </body>
 </html>

@@ -1,3 +1,4 @@
+/* ------------------------------- Hero photo */
 .home-bg-photo {
     background-image: url("../images/home-page-bg.jpg");
     background-position: center bottom;
@@ -6,7 +7,6 @@
     height: 100vh;
     padding-top: 70px;
 }
-
 
 header {
     display: flex;
@@ -26,42 +26,55 @@ header {
     padding: 0 10px;
 }
 
-.home-text {
+/* ------------------------------- Content */
+.home-section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
     margin: 10vh 0;
 }
 
-.home-text-gz{
+.home-content {
+    border: 1px solid var(--main);
+    margin: 5px;
+}
+
+.home-text-gz {
+    text-align: center;
     font-weight: bold;
-    margin-top: 50px;
-    font-size: 20px;
+    padding: 50px 0 20px 0;
+    font-size: 42px;
     letter-spacing: 1.1px;
 }
 
 .home-subtext {
-    margin-top: 20px;
+    padding: 30px 30px 50px 30px;
+    text-align: justify;
 }
 
 .home-subtext p {
-    padding: 2px 0;
+    padding: 10px 0;
+    font-size: 20px;
 }
 
-.btn {
-    text-decoration: none;
-    display: inline-block;
-    background-color: white;
-    border: none;
-    block-size: 25px;
-    font-size: 16px;
-    color: var(--text);
+.next {
+    font-size: 22px;
+    font-weight: bold;
+    padding: 90px 0 30px 0;
 }
 
+.btn-wrapper {
+    padding: 5px;
+}
 
-.btn:hover {
-    padding: 2px 0;
-    color: var(--subtext;
-    background-color: var(--accent);
+@media only screen and (min-width: 960px) {
+    .home-subtext {
+        max-width: 110vh;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    .home-subtext {
+        max-width: 100vh;
+    }
 }
