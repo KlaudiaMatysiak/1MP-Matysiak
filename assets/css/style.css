@@ -19,11 +19,12 @@ h2 {
     color: var(--title)
 }
 
-p {
+p, .form {
     font-family: var(--text);
     color: var(--subtext)
 }
 
+/*----------------------------------- General Title and Background */
 .bg {
     background-size: cover;
     background-repeat: no-repeat;
@@ -76,7 +77,7 @@ p {
 .menu-item {
     margin: 0 5px;
     font-weight:lighter;
-    font-size: 20px;
+    font-size: 28px;
 }
 
 .menu-item a {
@@ -118,6 +119,7 @@ p {
 .btn-wrapper {
     display: flex;
     justify-content: center;
+    padding: 60px 0 30px 0;
 }
 
 .btn {
@@ -167,12 +169,20 @@ footer i:hover {
     .menu-item {
         transition: all 0.5s ease;
     }
+
+    .submenu-item {
+        font-size: 24px;
+    }
 }
 
 @media only screen and (max-width: 960px) {
     .menu-item {
-        font-size: 16px;
+        font-size: 24px;
         transition: all 0.5s ease;
+    }
+
+    .submenu-item {
+        font-size: 20px;
     }
 }
 
