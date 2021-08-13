@@ -1,22 +1,43 @@
 /* ------------------------------- Title */
-.portfolio-title {
-    padding: 60px 0 0 0;
-    font-size: 12vh;
-    color: var(--subtitle);
-    background-color: rgba(240, 248, 255, 0.5);
-    height: inherit
-}
-
 .portfolio-bg {
     background-image: url("../images/portfolio-bg.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 40vh;
 }
 
 /* ------------------------------- Content */
 h2 {
     font-size: 24px;
+    padding: 20px;
 }
 
+.gallery-row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px 40px 4px;
+}
+
+.gallery-column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.gallery-column a img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+@media screen and (max-width: 960px) {
+    .gallery-column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .gallery-column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+  
