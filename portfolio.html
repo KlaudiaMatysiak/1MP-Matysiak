@@ -1,34 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#efdbd8">
+    <meta name="author" content="Klaudia Matysiak">
+    <meta name="description" content="Krystine Monté | Wedding Photography | Cardiff |">
+    <meta name="url" content="https://klaudiamatysiak.github.io/1MP-Matysiak/">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover.css"
+        integrity="sha512-Qg72y9f1a3aVc1FVnjq5YURLOOG8fDKQjMnhxYaZgBz4nIVjpVOBUtuMMMqkZPS1FlVrzzEBXq2sM6Qp1zen/Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/portfolio.css">
 
-    <title>Klaudia Matysiak | Wedding Photography | Cardiff |</title>
+    <title>Portfolio | Krystine Monté | Wedding Photography | Cardiff |</title>
 </head>
+
 <body>
+    <!-- Navbar -->
     <nav class="main-nav">
-        <img class="logo" alt="logo" src="assets/images/kmlogo.png">
-        <i class="fas fa-bars hamburger"></i>
-        <ul class="menu-list">
+        <a href="index.html"><img class="logo" alt="logo" src="assets/images/kmlogo.png"></a>
+        <button class="hamburger" id="hamburger" aria-label="menu"><i class="fas fa-bars"></i></button>
+        <ul class="menu-list" id="menu-list">
             <li class="menu-item"><a href="index.html"><span>Home</span></a></li>
             <li class="menu-item">
-                <a href="portfolio.html"><span>Wedding</span></a>
+                <a><span>Wedding</span></a>
                 <ul class="submenu-list">
                     <li class="submenu-item"><a href="portfolio.html">Portfolio</a></li>
                     <li class="submenu-item"><a href="prices.html">Packages & Prices</a></li>
@@ -40,21 +56,145 @@
             <li class="menu-item"><a href="contact.html"><span>Contact</span></a></li>
         </ul>
     </nav>
-    <section class="portfolio-bg">
-        <h2 class="portfolio-title">Portfolio</h2>
+    <!-- Header -->
+    <section class="bg portfolio-bg">
+        <h2 class="title">Portfolio</h2>
     </section>
     <section>
-        <h2>Wedding ceremonies</h2>
-        <h2>Family memories</h2>
-        <h2>Engagement Shoot</h2>
-        <h2>The Details</h2>
-    </section>
+        <div class="gallery-row">
+            <!-- Column 1 -->
+            <div class="gallery-column">
+                <a data-fancybox="gallery" data-src="assets/images/photo-3.jpg" data-caption="Wedding Ceremony">
+                    <img src="assets/images/photo-3.jpg" alt="Wedding ceremony" />
+                </a>
 
+                <a data-fancybox="gallery" data-src="assets/images/photo-1.jpg" data-caption="Wedding Ceremony">
+                    <img src="assets/images/photo-1.jpg" alt="Wedding ceremony" />
+                </a>
+
+                <a data-fancybox="gallery" data-src="assets/images/photo-5.jpg" data-caption="Wedding Ceremony">
+                    <img src="assets/images/photo-5.jpg" alt="Wedding ceremony" />
+                </a>
+
+                <a data-fancybox="gallery" data-src="assets/images/photo-2.jpg" data-caption="Wedding Ceremony">
+                    <img src="assets/images/photo-2.jpg" alt="Wedding ceremony" />
+                </a>
+
+                <a data-fancybox="gallery" data-src="assets/images/photo-6.jpg" data-caption="Wedding Ceremony">
+                    <img src="assets/images/photo-6.jpg" alt="Wedding ceremony" />
+                </a>
+
+                <a data-fancybox="gallery" data-src="assets/images/annabelle-corbin.jpg"
+                    data-caption="Wedding Photoshoot">
+                    <img src="assets/images/annabelle-corbin.jpg" alt="Wedding photoshoot" />
+                </a>
+
+                <a data-fancybox="gallery" data-src="assets/images/photo-family-2.jpg" data-caption="Wedding Ceremony">
+                    <img src="assets/images/photo-family-2.jpg" alt="Wedding ceremony" />
+                </a>
+            </div>
+            <!-- Column 2 -->
+            <div class="gallery-column">
+                <a data-fancybox="gallery" data-src="assets/images/photo-family-1.jpg" data-caption="Wedding Ceremony">
+                    <img src="assets/images/photo-family-1.jpg" alt="Wedding ceremony" />
+                </a>
+
+                <a data-fancybox="gallery" data-src="assets/images/photo-4.jpg" data-caption="Wedding Ceremony">
+                    <img src="assets/images/photo-4.jpg" alt="Wedding photoshoot" />
+                </a>
+
+                <a data-fancybox="gallery" data-src="assets/images/about-bg.jpg" data-caption="Wedding Photoshoot">
+                    <img src="assets/images/about-bg.jpg" alt="Wedding photoshoot" />
+                </a>
+
+                <a data-fancybox="gallery" data-src="assets/images/photo-family-3.jpg" data-caption="Wedding Ceremony">
+                    <img src="assets/images/photo-family-3.jpg" alt="Wedding ceremony" />
+                </a>
+
+                <a data-fancybox="gallery" data-src="assets/images/hen-1.jpg" data-caption="Hen Party Photoshoot">
+                    <img src="assets/images/hen-1.jpg" alt="Hen party photoshoot" />
+                </a>
+
+                <a data-fancybox="gallery" data-src="assets/images/portfolio-bg.jpg" data-caption="Wedding Photoshoot">
+                    <img src="assets/images/portfolio-bg.jpg" alt="Hen party photoshoot" />
+                </a>
+
+                <a data-fancybox="gallery" data-src="assets/images/hen-2.jpg" data-caption="Hen Party Photoshoot">
+                    <img src="assets/images/hen-2.jpg" alt="Hen party photoshoot" />
+                </a>
+            </div>
+            <!-- Column 3 -->
+            <div class="gallery-column">
+                <a data-fancybox="gallery" data-src="assets/images/photo-eng-1.jpg"
+                    data-caption="Engagement Photoshoot">
+                    <img src="assets/images/photo-eng-1.jpg" alt="Engagement photoshoot" />
+                </a>
+
+                <a data-fancybox="gallery" data-src="assets/images/photo-eng-2.jpg" data-caption="Wedding Photoshoot">
+                    <img src="assets/images/photo-eng-2.jpg" alt="Wedding photoshoot" />
+                </a>
+
+                <a data-fancybox="gallery" data-src="assets/images/photo-eng-4.jpg" data-caption="Wedding Photoshoot">
+                    <img src="assets/images/photo-eng-4.jpg" alt="Wedding photoshoot" />
+                </a>
+
+                <a data-fancybox="gallery" data-src="assets/images/photo-eng-3.jpg" data-caption="Wedding Photoshoot">
+                    <img src="assets/images/photo-eng-3.jpg" alt="Wedding photoshoot" />
+                </a>
+
+                <a data-fancybox="gallery" data-src="assets/images/romantic-2.png" data-caption="Wedding Photoshoot">
+                    <img src="assets/images/romantic-2.png" alt="Wedding photoshoot" />
+                </a>
+
+                <a data-fancybox="gallery" data-src="assets/images/romantic-3.png" data-caption="Wedding Photoshoot">
+                    <img src="assets/images/romantic-3.png" alt="Wedding photoshoot" />
+                </a>
+
+                <a data-fancybox="gallery" data-src="assets/images/romantic-1.png" data-caption="Wedding Photoshoot">
+                    <img src="assets/images/romantic-1.png" alt="Wedding photoshoot" />
+                </a>
+            </div>
+            <!-- Column 4 -->
+            <div class="gallery-column">
+                <a data-fancybox="gallery" data-src="assets/images/reviews-bg.jpg" data-caption="Wedding Details">
+                    <img src="assets/images/reviews-bg.jpg" alt="Wedding details" />
+                </a>
+
+                <a data-fancybox="gallery" data-src="assets/images/photo-details-1.jpg" data-caption="Wedding Details">
+                    <img src="assets/images/photo-details-1.jpg" alt="Wedding details" />
+                </a>
+
+                <a data-fancybox="gallery" data-src="assets/images/photo-details-3.jpg" data-caption="Wedding Details">
+                    <img src="assets/images/photo-details-3.jpg" alt="Wedding details" />
+                </a>
+
+                <a data-fancybox="gallery" data-src="assets/images/prices-bg.jpg" data-caption="Wedding Details">
+                    <img src="assets/images/prices-bg.jpg" alt="Wedding details" />
+                </a>
+
+                <a data-fancybox="gallery" data-src="assets/images/photo-details-2.jpg" data-caption="Wedding Details">
+                    <img src="assets/images/photo-details-2.jpg" alt="Wedding details" />
+                </a>
+
+                <a data-fancybox="gallery" data-src="assets/images/sensual-3.jpg" data-caption="Sensual Act">
+                    <img src="assets/images/sensual-3.jpg" alt="Sensual act" />
+                </a>
+            </div>
+        </div>
+        <div class="btn-wrapper">
+            <div class="btn hvr-float">
+                <a href="contact.html">Contact me</a>
+            </div>
+        </div>
+    </section>
     <footer>
-        <a href="http://facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
-        <a href="http://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
-        <a href="http://tiktok.com" target="_blank"><i class="fab fa-tiktok"></i></a>
+        <a href="http://facebook.com/" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-square"></i></a>
+        <a href="http://instagram.com/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="http://tiktok.com" target="_blank" rel="noopener" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
         <span class="copyright">2021 © Klaudia Matysiak</span>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
+
 </html>
