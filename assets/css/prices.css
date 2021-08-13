@@ -89,9 +89,9 @@ img {
     align-items: center;
     font-size: 5vh;
     color: var(--subtitle);
-    background-color: rgba(240, 248, 255, 0.4);
+    background-color: rgba(0, 0, 0, 0.3);
     height: inherit;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
 }
 
 .classic {

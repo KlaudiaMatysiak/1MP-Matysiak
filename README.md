@@ -1,4 +1,4 @@
-# Klaudia Matysiak - 1 Milestone Project - Wedding Photography Portfolio
+# Klaudia Matysiak - 1st Milestone Project - Wedding Photography Portfolio
 
 My 1st Milestone Project is website designed for a non-existing photographer named Krystine Monté based in Cardiff. I always wanted to be a wedding photographer, so this project is my vision of how my website would look like. I would like the page to be in the perception of a wedding as a magical dream. It's designed to be responsive at all devices.
 
