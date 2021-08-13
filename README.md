@@ -1,8 +1,8 @@
 # Klaudia Matysiak - 1 Milestone Project - Wedding Photography Portfolio
 
-My 1 Milestone Project is website designed for a non-existing photographer named Krystine Monté based in Cardiff. I always wanted to be a wedding photographer, so this project is my vision of how my website would look like. I would like the page to be in the perception of a wedding as a magical dream. It's designed to be responsive at all devices.
+My 1st Milestone Project is website designed for a non-existing photographer named Krystine Monté based in Cardiff. I always wanted to be a wedding photographer, so this project is my vision of how my website would look like. I would like the page to be in the perception of a wedding as a magical dream. It's designed to be responsive at all devices.
 
-[View the live project here.](https://klaudiamatysiak.github.io/1MP-Matysiak/)
+[View the live project here.](https://klaudiamatysiak.github.io/Wedding-Photography-Portfolio/index.html)
 
 ![Responsive Design](documentation/images/mockup.png)
 
@@ -14,8 +14,9 @@ My 1 Milestone Project is website designed for a non-existing photographer named
     1. As a First Time Visitor, I want to easly navigate through the web page to find content and understand main purpose of the website.
     2. As a First Time Visitor, I want to check photographer's portfolio.
 * Returning Visitors Goals
-    1. As a Returning Visitor, I want to find pirce list and packeges. 
-    2. As a Returning Visitor, I want to contact with photographer to check her availability at my wedding date.
+    1. As a Returning Visitor, I want to find price list and packeges. 
+    2. As a Returning Visitor, I want to contact with photographer to check her availability for my wedding date.
+    3. As a Returning Visitor, I want to check the reviews of the previous customers.
 
 ## Design
 
@@ -26,9 +27,13 @@ I decided to choose simple layout of main color Misty Rose, with accent of Pale 
 ## Wireframes
 I created wireframes in the balsamiq program as first visual concept of the website.
 
-* [Desktop Wireframe](documentation/files/desktop-wedding-portfolio.pdf)
+* Desktop Wireframe - Full PDF file with desktop wireframes you can find [here](documentation/files/desktop-wedding-portfolio.pdf)
 
-* [Mobile Wireframe](documentation/files/mobile-wedding-portfolio.pdf)
+![Desktop Wireframe](documentation/images/desktop-wireframe.png)
+
+* Desktop Wireframe - Full PDF file with desktop wireframes you can find [here](documentation/files/mobile-wedding-portfolio.pdf)
+
+![Desktop Wireframe](documentation/images/mobile-wireframe.png)
 
 # Features
 ## Navigation Bar
@@ -59,8 +64,13 @@ I created wireframes in the balsamiq program as first visual concept of the webs
 
 ## Footer
 * Footer includes social media links to the Facebook, Instagram and TikTok and developer's copyright.
+* Desktop and Tablet view
 
 ![Footer](documentation/images/footer.png)
+
+* Mobile view
+
+![Footer Mobile](documentation/images/footer-mobile.png)
 
 ## Title on the Pages
 * On the Portfolio, Packages & Prices, Reviews, About and Contact Pages display title with a background photo.
@@ -96,7 +106,7 @@ I created wireframes in the balsamiq program as first visual concept of the webs
 ![Gallery View Mobile](documentation/images/gallery-mobile.png)
 
 ## Contact Button
-* This section contains a link, styled like button, to a Contact Page. To style this element I used CSS:hover library and chose float animation. User can find "Contact Button" in the end of the all pages, exlude Home Page which has "What's next" section and Contact Page which doesn't need a link to it.
+* This section contains a link, styled like a button, forwarding to a Contact Page. To style this element I used CSS:hover library and chose float animation. User can find "Contact Button" in the end of the all pages, exlude Home Page which has "What's next" section and Contact Page which doesn't need a link to it.
 
 ![Contact Button](documentation/images/contact-button.png)
 
@@ -130,12 +140,21 @@ I created wireframes in the balsamiq program as first visual concept of the webs
 
 ## Reviews
 * Section contains a reviews from clients of the photographer Krystine Monté that user can read positive recomendation. I used Random Name Generator and search for Google Reviews about Cardiff photographers to make a reviews from non-existing clients.
+* Desktop view
 
-![Review](documentation/images/review.png)
+![Review Desktop](documentation/images/review.png)
+
+* Tablet view
+
+![Review Tablet](documentation/images/review-tablet.png)
+
+* Mobile view
+
+![Review Mobile](documentation/images/review-mobile.png)
 
 ## About
 * Section contains: 
-    - header with greetings from Krystine Montéu,
+    - header with greetings from Krystine Monté,
     - paragraphs about Krystine Monté and her experience,
     - image of Krystine Monté.
 * Desktop View 
@@ -150,17 +169,37 @@ I created wireframes in the balsamiq program as first visual concept of the webs
 
 ![About Page Tablet View](documentation/images/about-mobile.png)
 
+## Words of thank you
+* This section welcome user to fill in form to contact with a photographer. Photographer appreciate that potential client want to contact with her.
+* Desktop and Tablet view
+
+![Thanks section](documentation/images/thanks-contact.png)
+
+* Mobile view
+
+![Thanks section mobile](documentation/images/thanks-contact-mobile.png)
+
 ## Contact Form
+* This section contains contact form that user can send to the photographer asking for her availability. In the form user is required to fill in First Name, Email address, Mobile number, Wedding Date and Reception Venue. As on optional areas to fill in are "What package are you interested in?", "Tell me more about you and your vision for a wedding day", and "How did you find me?".
+* Desktop and Tablet View 
+
+![Desktop and Tablet Contact Form](documentation/images/contact-form.png)
+
+* Mobile View 
+
+![Mobile Contact Form](documentation/images/contact-form-mobile.png)
 
 # Testing
 ## HTML
 * The [W3C School Validator](https://validator.w3.org/#validate_by_uri) were used to validate the HTML code on the project.
 * Home Page - [link to the Home Page HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fklaudiamatysiak.github.io%2F1MP-Matysiak%2Findex.html)
+
 ![Home Page HTML Validator](documentation/images/html-val-home.png)
 
 ## CSS
 * The [W3C School CSS Validator](https://jigsaw.w3.org/css-validator/validator.html.en) where used to validate CSS code on the project.
 * Home Page - [link to the Home Page CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fklaudiamatysiak.github.io%2F1MP-Matysiak%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
 ![Home Page CSS Validator](documentation/images/css-val-home.png)
 
 ## Lighthouse DevTools
@@ -172,6 +211,19 @@ I created wireframes in the balsamiq program as first visual concept of the webs
 
 ![Mobile Report Lighthouse DevTools](documentation/images/lighthouse-mobile.png)
 
+## Improvement Lighthouse DevTools
+* I run the report of Lighthouse and I upgraded the score through:
+    - add four meta elements (theme color, author, discription, url)
+    - add attributes aria-label to the hamburger button and link elements in the footer
+    - add attributes rel to the link elements in the footer
+* Desktop report
+
+![Desktop Lighthouse DevTools report](documentation/images/imp.png)
+
+* Mobile report
+
+![Mobile Lighthouse DevTools report](documentation/images/imp-mobile.png)
+
 # Technologies Used
 ## Languages Used:
 * HTML5
@@ -179,67 +231,67 @@ I created wireframes in the balsamiq program as first visual concept of the webs
 * JavaScript
 
 ## Frameworks, Libraries & Programs Used
-* [Font Awesome](https://fontawesome.com/) 
-* [Google Fonts](https://fonts.google.com/)
-* [Balsamiq](https://balsamiq.com/)
-* [Hover:CSS](https://ianlunn.github.io/Hover/)
-* [Fancybox](https://fancyapps.com/docs/ui/fancybox/plugins/image/)
+* [Font Awesome](https://fontawesome.com/) - I used Font Awesome icons for hamburger menu icon and social media links (Facebook, Instagram, TikTok)
+* [Google Fonts](https://fonts.google.com/) - I chose to use two google fonts. Playfair Display Font for the headers and titles, and Roboto Font for the paragraphs and contact form.
+* [Balsamiq](https://balsamiq.com/) - I used Balsamiq to make Desktop and Mobile Wireframes.
+* [Hover:CSS](https://ianlunn.github.io/Hover/) - I used Hover:CSS to add Float transition.
+* [Fancybox](https://fancyapps.com/docs/ui/fancybox/plugins/image/) - I used Fancybox to enlarge images on the portfolio page. That way gallery is more appealing to the users. 
 
 # Credits
 ## Images
-* https://unsplash.com/photos/IfjHaIoAoqE
-* https://unsplash.com/photos/zMD_a665huA
-* https://www.facebook.com/photo/?fbid=988862457838330&set=a.132545638872676
-* https://unsplash.com/photos/BlKIiqK-H78
-* https://unsplash.com/photos/y4bE8ST_CTg
-* https://unsplash.com/photos/g3oEF_BNXwE
-* https://unsplash.com/photos/deBjhdlHBXc
-* https://unsplash.com/photos/FTW8ADj5igs
-* https://unsplash.com/photos/GcGLl7JkzhE
-* https://www.pngitem.com/middle/ixohobx_5-star-review-google-reviews-logo-transparent-hd/
-* https://unsplash.com/photos/RHAtRIT3-CE
-* https://unsplash.com/photos/5BB_atDT4oA
-* https://unsplash.com/photos/dvF6s1H1x68
-* https://unsplash.com/photos/lR--zjgQRY0
-* https://unsplash.com/photos/JFAPl7brL6U
-* https://unsplash.com/photos/JiaYVFD3isE
-* https://unsplash.com/photos/mW8IZdX7n8E
-* https://unsplash.com/photos/Z-Edp122ryw
-* https://unsplash.com/photos/DmUbkltYsKI
-* https://unsplash.com/photos/--LyFIjXoFY
-* https://unsplash.com/photos/Ys-27LJxMIo
-* https://unsplash.com/photos/NBtkkWD4sGM
-* https://unsplash.com/photos/8DK7qh8kjNg
-* https://unsplash.com/photos/H_cZqryUuok
-* https://unsplash.com/photos/8yPA6ZYq0-s
-* https://unsplash.com/photos/87DgFV9SOc4
-* https://unsplash.com/photos/8WODX7nO2JE
-* https://www.instagram.com/p/Bd0ECfFnpCs/
-* https://www.instagram.com/p/BcDZ1qEFiQr/
-* https://www.instagram.com/p/BW3f3U9F-qs/
-* https://www.instagram.com/p/BcItqd1F7b7/
-* https://unsplash.com/photos/69UhCdWsUO4
-* https://unsplash.com/photos/CLD1i8hp008
-* https://unsplash.com/photos/d_9i9TaOxfI
-* https://unsplash.com/photos/tqunk3qB_yU
-* https://unsplash.com/photos/PCHYLGhHV2U
-* https://unsplash.com/photos/XReCuboiTcw
-* https://unsplash.com/photos/9Evqbiy9Lj8
-* https://unsplash.com/photos/6GmVt60qwlY
-* https://unsplash.com/photos/w7qXr_E-1IM
-* https://unsplash.com/photos/i6srrLYeS-A
-* https://unsplash.com/photos/X3DZ1c7MPa4
+
+| Link to the image | Name of the Author | Where is it used on the project? |
+|:---:|:---:|:---:|
+|[Click here](https://unsplash.com/photos/IfjHaIoAoqE) | Foto Pettine | Home
+|[Click here](https://unsplash.com/photos/zMD_a665huA) | Brooke Cagle | Portfolio, About
+|[Click here](https://www.facebook.com/photo/?fbid=988862457838330&set=a.132545638872676) | Kyra Campbell | About
+|[Click here](https://unsplash.com/photos/BlKIiqK-H78) | Ömürden Cengiz | Contact
+|[Click here](https://unsplash.com/photos/464ps_nOflw) | Jeremy Wong Weddings | Portfolio
+|[Click here](https://unsplash.com/photos/g3oEF_BNXwE) | Jonathan Borba | Reviews
+|[Click here](https://unsplash.com/photos/deBjhdlHBXc) | Sofia Hernandez | Reviews
+|[Click here](https://unsplash.com/photos/FTW8ADj5igs) | Hisu lee | Reviews, Portfolio
+|[Click here](https://unsplash.com/photos/GcGLl7JkzhE) | Nevels Media | Reviews, Packages & Prices
+|[Click here](https://unsplash.com/photos/RHAtRIT3-CE) | Samantha Gades | Portfolio, Packages & Prices
+|[Click here](https://unsplash.com/photos/5BB_atDT4oA) | Nathan Dumlao | Portfolio
+|[Click here](https://unsplash.com/photos/y4bE8ST_CTg) | Redd | Portfolio
+|[Click here](https://unsplash.com/photos/dvF6s1H1x68) | Leonardo Miranda | Portfolio
+|[Click here](https://unsplash.com/photos/lR--zjgQRY0) | Jakob Owens | Portfolio
+|[Click here](https://unsplash.com/photos/JFAPl7brL6U) | Victoria Priessnitz | Portfolio
+|[Click here](https://unsplash.com/photos/JiaYVFD3isE) | Jonathan Borba | Portfolio
+|[Click here](https://unsplash.com/photos/mW8IZdX7n8E) | Álvaro CvG | Portfolio
+|[Click here](https://unsplash.com/photos/DmUbkltYsKI) | Allef Vinicius | Portfolio
+|[Click here](https://unsplash.com/photos/--LyFIjXoFY) | Mitchell Orr | Portfolio
+|[Click here](https://unsplash.com/photos/Ys-27LJxMIo) | Nevels Media | Portfolio
+|[Click here](https://unsplash.com/photos/NBtkkWD4sGM) | Jonathan Borba | Portfolio, Packages & Prices
+|[Click here](https://unsplash.com/photos/8DK7qh8kjNg) | henor teneqja | Portfolio
+|[Click here](https://unsplash.com/photos/H_cZqryUuok) | Nathan Dumlao | Portfolio, Packages & Prices
+|[Click here](https://unsplash.com/photos/8yPA6ZYq0-s) | Tom The Photographer | Portfolio
+|[Click here](https://unsplash.com/photos/87DgFV9SOc4) | Marcus Lewis | Portfolio
+|[Click here](https://www.instagram.com/p/Bd0ECfFnpCs/) | photoyoungpl | Contact
+|[Click here](https://www.instagram.com/p/BcDZ1qEFiQr/) | photoyoungpl | Portfolio, Packages & Prices
+|[Click here](https://www.instagram.com/p/BW3f3U9F-qs/) | photoyoungpl | Portfolio, Packages & Prices
+|[Click here](https://www.instagram.com/p/BcItqd1F7b7/) | photoyoungpl | Portfolio, Packages & Prices
+|[Click here](https://unsplash.com/photos/69UhCdWsUO4) | Ann Danilina | Portfolio, Packages & Prices
+|[Click here](https://unsplash.com/photos/CLD1i8hp008) | Kats Weil | Portfolio, Packages & Prices
+|[Click here](https://unsplash.com/photos/d_9i9TaOxfI) | Zoriana Stakhniv | Portfolio, Packages & Prices
+|[Click here](https://unsplash.com/photos/tqunk3qB_yU) | Andre Adjahoe | Packages & Prices
+|[Click here](https://unsplash.com/photos/XReCuboiTcw) | Natalie Chaney | Packages & Prices
+|[Click here](https://unsplash.com/photos/9Evqbiy9Lj8) | Monika Kozub | Packages & Prices
+|[Click here](https://unsplash.com/photos/6GmVt60qwlY) | Alexander Krivitskiy | Packages & Prices
+|[Click here](https://unsplash.com/photos/w7qXr_E-1IM) | Federico Plevak | Portfolio, Packages & Prices
+|[Click here](https://unsplash.com/photos/i6srrLYeS-A) | Hannah Busing | Portfolio
+|[Click here](https://unsplash.com/photos/X3DZ1c7MPa4) | Hannah Busing | Packages & Prices
 
 ## Design
-* [Logo design](https://www.freelogodesign.org/) - I create logo on the website.
-* [Colors](https://coolors.co/) - I chose colors for the design by myself. I only use this website to show palette in the README file.
+* [Logo design](https://www.freelogodesign.org/) - I created the logo on the website for the project.
+* [Coolors](https://coolors.co/) - I chose colors for the design by myself. I only use this website to show palette in the README file.
 ## Code
-* [CSS Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-* [Dropdown submenu](https://www.w3schools.com/css/css_dropdowns.asp) 
-* [CSS reset](https://meyerweb.com/eric/tools/css/reset/)
-* [Hamburger menu in Javascript](https://www.youtube.com/watch?v=ydZc17rlR5E)
-* [Responsive Image Grid for Portfolio Gallery](https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp)
+* [CSS Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - I used CSS Flexbox for all the pages throught the project.
+* [Dropdown submenu](https://www.w3schools.com/css/css_dropdowns.asp) - I used CSS Dropdown menu in the navbar on the Mobile and Tablet view.
+* [CSS reset](https://meyerweb.com/eric/tools/css/reset/) - I used css reset to reset all styles settings in the browser.
+* [Hamburger menu in Javascript](https://www.youtube.com/watch?v=ydZc17rlR5E) - I used Javascript code to make hamburger menu works on the mobile view.
+* [Responsive Image Grid for Portfolio Gallery](https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp) - I used Responsive Image Grid on the Portfolio Page.
 ## Other
 * [Random name generator](https://www.behindthename.com/random/) - I generate random names for fake clients reviews.
 * [Reviews about photographer](https://www.google.com/search?q=wedding+photographer+cardiff&tbm=lcl&sxsrf=ALeKk0171Aoepdz-NCRvxKKyN_iCIhC9Lw%3A1628610435059&ei=g58SYZ7-AoOo8gLr4q5I&oq=wedding+photographer+cardiff&gs_l=psy-ab.12...0.0.0.12140.0.0.0.0.0.0.0.0..0.0....0...1c..64.psy-ab..0.0.0....0.SIZkvfOa0EQ#rlfi=hd:;si:;mv:[[51.5405251,-3.0837762],[51.4454608,-3.2447312999999998]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:14) - I pick four random reviews from google reviews about photographers based in Cardiff.
-* [Compressed size of the images](https://tinypng.com/)
+* [Compressed size of the images](https://tinypng.com/) - I used this website to compress the sizes of the images for quicker page loading.
