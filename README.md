@@ -13,6 +13,7 @@ My 1st Milestone Project is website designed for a non-existing photographer nam
 * First Time Visitors Goals
     1. As a First Time Visitor, I want to easly navigate through the web page to find content and understand main purpose of the website.
     2. As a First Time Visitor, I want to check photographer's portfolio.
+    3. As a First Time Visitor, I want to read more about photographer.
 * Returning Visitors Goals
     1. As a Returning Visitor, I want to find price list and packeges. 
     2. As a Returning Visitor, I want to contact with photographer to check her availability for my wedding date.
@@ -190,27 +191,38 @@ I created wireframes in the balsamiq program as first visual concept of the webs
 ![Mobile Contact Form](documentation/images/contact-form-mobile.png)
 
 # Testing
+## Testing User Stories from User Experience
+### First Time Visitor Goals
+* As a First Time Visitor, I want to easly navigate through the web page to find content and understand main purpose of the website.
+    - When enter the website for the first time I can see readible navigation bar and full screen size image of the newlyweds with the header "Wedding Photographer Cardiff, Wales", which indicates that this is website of the wedding photographer to hire Navigation bar can take to other pages on the website and it's consistent trough the website.
+* As a First Time Visitor, I want to check photographer's portfolio.
+    - I navigate myself to "Wedding" menu on the navigation bar and from dropdown menu I select "Portfolio". Unless I use mobile then from the hamburger menu I choose "Portfolio".
+    - On the Portfolio page I can see wedding portfolio with big readible title and grid view. I can enlarge photos by clicking on the image and opens gallery view.
+* As a First Time Visitor, I want to read more about photographer.
+    - I navigate myself to "About" menu on the navigation bar. Unless I use mobile then from the hamburger menu I choose "About".
+    - On the About page I can see name and photo of the photographer. I read her story and wedding experience.
+### Returning Visitors Goals
+* As a Returning Visitor, I want to find price list and packeges.
+    - I navigate myself to "Wedding" menu on the navigation bar and from dropdown menu I select "Price & Packages" position. Unless I use mobile then from the hamburger menu I choose "Price & Packages".
+    - On the Price & Packages page I can easli understand that this photographer has two packages to choose and both have price tag. I can add more products and/or services to it if I want. 
+* As a Returning Visitor, I want to contact with photographer to check her 
+availability for my wedding date.
+    - I navigate myself to "Contact" menu on the navigation bar. Unless I use mobile then from the hamburger menu I choose "Contact".
+    - On the Contact page I can fill in the contact form with information about my wedding date, so the photographer can respond me about availability for that day.
+* As a Returning Visitor, I want to check the reviews of the previous 
+customers.
+    - I navigate myself to "Wedding" menu on the navigation bar and from dropdown menu I select "Reviews". Unless I use mobile then from the hamburger menu I choose "Review".
+    - On the Reviews page I can read some opinions from her previous clients.
 ## HTML
-* The [W3C School Validator](https://validator.w3.org/#validate_by_uri) were used to validate the HTML code on the project.
+* The [W3C School Validator](https://validator.w3.org/#validate_by_uri) were used to validate the HTML code on the project. I validated the code for each page by direct input.
 
-![Home Page HTML Validator](documentation/images/html-val-home.png)
-* Home Page - [link to the HTML Validator with Home Page](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fklaudiamatysiak.github.io%2FWedding-Photography-Portfolio%2F)
-* Portfolio - [link to the HTML Validator with Portfolio Page](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fklaudiamatysiak.github.io%2FWedding-Photography-Portfolio%2Findex.html)
-* Packages & Prices - [link to the HTML Validator with Packages & Prices](https://validator.w3.org/nu/?showsource=yes&useragent=Validator.nu%2FLV+http%3A%2F%2Fvalidator.w3.org%2Fservices&acceptlanguage=&doc=https%3A%2F%2Fklaudiamatysiak.github.io%2FWedding-Photography-Portfolio%2Fprices.html)
-* Reviews - [link to the HTML Validator with Reviews](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fklaudiamatysiak.github.io%2FWedding-Photography-Portfolio%2Freviews.html#l63c13)
-* About - [link to the HTML Validator with About](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fklaudiamatysiak.github.io%2FWedding-Photography-Portfolio%2Fabout.html#l63c13)
-* Contact - [link to the HTML Validator with Contact](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fklaudiamatysiak.github.io%2FWedding-Photography-Portfolio%2Fcontact.html#l63c13)
+![HTML Validator](documentation/images/html-validator.png)
 
 ## CSS
-* The [W3C School CSS Validator](https://jigsaw.w3.org/css-validator/validator.html.en) where used to validate CSS code on the project.
+* The [W3C School CSS Validator](https://jigsaw.w3.org/css-validator/validator.html.en) where used to validate CSS code on the project. I validated the code for each page by direct input.
 
-![Home Page CSS Validator](documentation/images/css-val-home.png)
-* Home Page - [link to the Home Page CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fklaudiamatysiak.github.io%2FWedding-Photography-Portfolio%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
-* Portfolio - [link to the Portfolio CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fklaudiamatysiak.github.io%2FWedding-Photography-Portfolio%2Fportfolio.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
-* Packages & Prices - [link to the Packages & Prices CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fklaudiamatysiak.github.io%2FWedding-Photography-Portfolio%2Fprices.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
-* Reviews - [link to the Reviews CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fklaudiamatysiak.github.io%2FWedding-Photography-Portfolio%2Freviews.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
-* About - [link to the About CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fklaudiamatysiak.github.io%2FWedding-Photography-Portfolio%2Fabout.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
-* Contact - [link to the Contact CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fklaudiamatysiak.github.io%2FWedding-Photography-Portfolio%2Fcontact.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+![CSS Validator](documentation/images/css-validator.png)
+
 
 
 ## Lighthouse DevTools
@@ -228,8 +240,8 @@ I created wireframes in the balsamiq program as first visual concept of the webs
     - add four meta elements (theme color, author, discription, url)
     - add attributes aria-label to the hamburger button and link elements in the footer
     - add attributes rel to the link elements in the footer
-* Desktop report - [First Desktop Report Lighthouse DevTools](documentation/images/lighthouse-desktop.png)
-* Mobile report - [First Mobile Report Lighthouse DevTools](documentation/images/lighthouse-mobile.png)
+* Desktop report before making improvments - [First Desktop Report Lighthouse DevTools](documentation/images/lighthouse-desktop.png)
+* Mobile report before making improvments - [First Mobile Report Lighthouse DevTools](documentation/images/lighthouse-mobile.png)
 
 
 # Technologies Used
@@ -243,7 +255,7 @@ I created wireframes in the balsamiq program as first visual concept of the webs
 * [Google Fonts](https://fonts.google.com/) - I chose to use two google fonts. Playfair Display Font for the headers and titles, and Roboto Font for the paragraphs and contact form.
 * [Balsamiq](https://balsamiq.com/) - I used Balsamiq to make Desktop and Mobile Wireframes.
 * [Hover:CSS](https://ianlunn.github.io/Hover/) - I used Hover:CSS to add Float transition.
-* [Fancybox](https://fancyapps.com/docs/ui/fancybox/plugins/image/) - I used Fancybox to enlarge images on the portfolio page. That way gallery is more appealing to the users. 
+* [Fancybox](https://fancyapps.com/docs/ui/fancybox/plugins/image/) - I used Fancybox to enlarge images on the portfolio page. This way gallery is more appealing to the users. 
 
 # Credits
 ## Images
