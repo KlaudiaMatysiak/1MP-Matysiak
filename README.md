@@ -192,37 +192,45 @@ I created wireframes in the balsamiq program as first visual concept of the webs
 # Testing
 ## HTML
 * The [W3C School Validator](https://validator.w3.org/#validate_by_uri) were used to validate the HTML code on the project.
-* Home Page - [link to the Home Page HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fklaudiamatysiak.github.io%2F1MP-Matysiak%2Findex.html)
 
 ![Home Page HTML Validator](documentation/images/html-val-home.png)
+* Home Page - [link to the HTML Validator with Home Page](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fklaudiamatysiak.github.io%2FWedding-Photography-Portfolio%2F)
+* Portfolio - [link to the HTML Validator with Portfolio Page](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fklaudiamatysiak.github.io%2FWedding-Photography-Portfolio%2Findex.html)
+* Packages & Prices - [link to the HTML Validator with Packages & Prices](https://validator.w3.org/nu/?showsource=yes&useragent=Validator.nu%2FLV+http%3A%2F%2Fvalidator.w3.org%2Fservices&acceptlanguage=&doc=https%3A%2F%2Fklaudiamatysiak.github.io%2FWedding-Photography-Portfolio%2Fprices.html)
+* Reviews - [link to the HTML Validator with Reviews](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fklaudiamatysiak.github.io%2FWedding-Photography-Portfolio%2Freviews.html#l63c13)
+* About - [link to the HTML Validator with About](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fklaudiamatysiak.github.io%2FWedding-Photography-Portfolio%2Fabout.html#l63c13)
+* Contact - [link to the HTML Validator with Contact](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fklaudiamatysiak.github.io%2FWedding-Photography-Portfolio%2Fcontact.html#l63c13)
 
 ## CSS
 * The [W3C School CSS Validator](https://jigsaw.w3.org/css-validator/validator.html.en) where used to validate CSS code on the project.
-* Home Page - [link to the Home Page CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fklaudiamatysiak.github.io%2F1MP-Matysiak%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ![Home Page CSS Validator](documentation/images/css-val-home.png)
+* Home Page - [link to the Home Page CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fklaudiamatysiak.github.io%2FWedding-Photography-Portfolio%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+* Portfolio - [link to the Portfolio CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fklaudiamatysiak.github.io%2FWedding-Photography-Portfolio%2Fportfolio.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+* Packages & Prices - [link to the Packages & Prices CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fklaudiamatysiak.github.io%2FWedding-Photography-Portfolio%2Fprices.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+* Reviews - [link to the Reviews CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fklaudiamatysiak.github.io%2FWedding-Photography-Portfolio%2Freviews.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+* About - [link to the About CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fklaudiamatysiak.github.io%2FWedding-Photography-Portfolio%2Fabout.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+* Contact - [link to the Contact CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fklaudiamatysiak.github.io%2FWedding-Photography-Portfolio%2Fcontact.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
 
 ## Lighthouse DevTools
 * The [Lighthouse Tools for Web Developer](https://developers.google.com/web/tools/lighthouse) were used to generate report how well the page did.
 * Desktop 
 
-![Desktop Report Lighthouse DevTools](documentation/images/lighthouse-desktop.png)
+![Desktop Lighthouse DevTools report](documentation/images/imp.png)
+
 * Mobile 
 
-![Mobile Report Lighthouse DevTools](documentation/images/lighthouse-mobile.png)
+![Mobile Lighthouse DevTools report](documentation/images/imp-mobile.png)
 
 ## Improvement Lighthouse DevTools
 * I run the report of Lighthouse and I upgraded the score through:
     - add four meta elements (theme color, author, discription, url)
     - add attributes aria-label to the hamburger button and link elements in the footer
     - add attributes rel to the link elements in the footer
-* Desktop report
+* Desktop report - [First Desktop Report Lighthouse DevTools](documentation/images/lighthouse-desktop.png)
+* Mobile report - [First Mobile Report Lighthouse DevTools](documentation/images/lighthouse-mobile.png)
 
-![Desktop Lighthouse DevTools report](documentation/images/imp.png)
-
-* Mobile report
-
-![Mobile Lighthouse DevTools report](documentation/images/imp-mobile.png)
 
 # Technologies Used
 ## Languages Used:
