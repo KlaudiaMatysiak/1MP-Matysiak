@@ -1,9 +1,9 @@
-/* ------------------------------- Title */
+/* Header */
 .about-bg {
     background-image: url("../images/about-bg.jpg");
 }
 
-/* ------------------------------- Content */
+/* Content */
 .about-section {
     display: flex;
     flex-direction: column;

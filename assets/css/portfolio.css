@@ -1,14 +1,15 @@
-/* ------------------------------- Title */
+/* Title */
 .portfolio-bg {
   background-image: url("../images/portfolio-bg.jpg");
 }
 
-/* ------------------------------- Content */
+/* Content */
 h2 {
   font-size: 24px;
   padding: 20px;
 }
 
+/* Gallery grid view credit w3schools.com start here */
 .gallery-row {
   display: flex;
   flex-wrap: wrap;
@@ -40,3 +41,4 @@ h2 {
     max-width: 100%;
   }
 }
+/* Gallery grid view credit w3schools.com end here */

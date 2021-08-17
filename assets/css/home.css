@@ -1,4 +1,4 @@
-/* ------------------------------- Hero photo */
+/* Hero photo */
 .home-bg-photo {
     background-image: url("../images/home-page-bg.jpg");
     background-position: center bottom;
@@ -15,6 +15,7 @@ header {
     text-align: center;
     color: var(--title);
     margin-top: 20vh;
+    user-select: none;
 }
 
 .header-photographer {
@@ -27,7 +28,7 @@ header {
     font-size: 24px;
 }
 
-/* ------------------------------- Content */
+/* Content */
 .home-section {
     display: flex;
     flex-direction: column;

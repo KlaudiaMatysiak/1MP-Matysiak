@@ -1,9 +1,9 @@
-/* ------------------------------- Title */
+/* Header */
 .reviews-bg {
     background-image: url("../images/reviews-bg.jpg");
 }
 
-/* ------------------------------- Content */
+/* Content */
 h2 {
     font-size: 28px;
     padding: 10px;

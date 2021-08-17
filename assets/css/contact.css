@@ -1,9 +1,9 @@
-/* ------------------------------- Title */
+/* Header */
 .contact-bg {
     background-image: url("../images/contact-bg.jpg");
 }
 
-/* ------------------------------- Content */
+/* Content */
 .contact-thx {
     display: flex;
     flex-direction: column;

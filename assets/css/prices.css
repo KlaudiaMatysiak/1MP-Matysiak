@@ -1,9 +1,9 @@
-/* ------------------------------- Title */
+/* Header */
 .prices-bg {
     background-image: url("../images/prices-bg.jpg");
 }
 
-/* ------------------------------- Content Packages */
+/* Content Packages */
 .offer {
     display: flex;
     flex-direction: column;
@@ -67,7 +67,7 @@ img {
     height: 15vh;
 }
 
-/* ------------------------------- Content Photoshoots */
+/* Content Photoshoots */
 .photoshoots {
     display: flex;
     flex-direction: column;
