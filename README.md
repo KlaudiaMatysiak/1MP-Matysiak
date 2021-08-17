@@ -66,7 +66,7 @@ I created wireframes in the balsamiq program as first visual concept of the webs
 ![Congratulation](documentation/images/congratulations.png)
 
 ## What's next?
-* Section contain appealing buttons which point direction that user can take next on the website.
+* Section contain appealing buttons which point direction that user can take next on the website. It has background gradient of main colors to make visible section break.
 
 ![What's next?](documentation/images/next.png)
 
@@ -79,6 +79,10 @@ I created wireframes in the balsamiq program as first visual concept of the webs
 * Mobile view
 
 ![Footer Mobile](documentation/images/footer-mobile.png)
+
+* While hovering on social media icons shows brand color palletes.
+
+![Hover color](documentation/images/hover.png)
 
 ## Title on the Pages
 * On the Portfolio, Packages & Prices, Reviews, About and Contact Pages display title with a background photo.
@@ -312,6 +316,7 @@ customers.
 ## Design
 * [Logo design](https://www.freelogodesign.org/) - I created the logo on the website for the project.
 * [Coolors](https://coolors.co/) - I chose colors for the design by myself. I only use this website to show palette in the README file.
+* [Brand Palettes](https://brandpalettes.com/tiktok-colors/) - I used Brand Palette to make text gradient for [Instagram](https://brandpalettes.com/instagram-color-codes/) and [TikTok](https://brandpalettes.com/tiktok-colors/) icons and color for [Facebook](https://brandpalettes.com/facebook-colors/).
 ## Code
 * [CSS Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - I used CSS Flexbox for all the pages throught the project.
 * [Dropdown submenu](https://www.w3schools.com/css/css_dropdowns.asp) - I used CSS Dropdown menu in the navbar on the Mobile and Tablet view.
@@ -319,9 +324,10 @@ customers.
 * [Hamburger menu in Javascript](https://www.youtube.com/watch?v=ydZc17rlR5E) - I used Javascript code to make hamburger menu works on the mobile view.
 * [Responsive Image Grid for Portfolio Gallery](https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp) - I used Responsive Image Grid on the Portfolio Page.
 * [Fancybox](https://fancyapps.com/docs/ui/fancybox/plugins/image/) - I used code for portfolio page to enlarge the photos.
+* [Text Gradient](https://cssgradient.io/blog/css-gradient-text/) - I used text gradient to make appropriate brand color while hovering on the social media icons.
 ## Other
 * [Random name generator](https://www.behindthename.com/random/) - I generate random names for fake clients reviews.
 * [Reviews about photographer](https://www.google.com/search?q=wedding+photographer+cardiff&tbm=lcl&sxsrf=ALeKk0171Aoepdz-NCRvxKKyN_iCIhC9Lw%3A1628610435059&ei=g58SYZ7-AoOo8gLr4q5I&oq=wedding+photographer+cardiff&gs_l=psy-ab.12...0.0.0.12140.0.0.0.0.0.0.0.0..0.0....0...1c..64.psy-ab..0.0.0....0.SIZkvfOa0EQ#rlfi=hd:;si:;mv:[[51.5405251,-3.0837762],[51.4454608,-3.2447312999999998]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:14) - I pick four random reviews from google reviews about photographers based in Cardiff.
 * [TinyPNG](https://tinypng.com/) - I used this website to compress the sizes of the images for quicker page loading.
 ## Acknowledgments
-I'd like to thank my mentor Tim Nelson for providing suggestions to improve my site. Also to the people (Daniel and Manni) on the slack for sharing their's opinion.
+I'd like to thank my mentor Tim Nelson for providing suggestions to improve my site. Also to the people on the slack for sharing their's opinion, especially for Daniel Callaghan who helped me with grammar.
