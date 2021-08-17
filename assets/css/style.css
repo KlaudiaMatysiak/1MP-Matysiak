@@ -233,7 +233,7 @@ footer i:hover {
     .hamburger {
         display: block;
         position: absolute;
-        right: 15px;
+        right: 10px;
         top: 50%;
         transform: translateY(-50%);
         font-size: 36px;
