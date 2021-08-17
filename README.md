@@ -36,6 +36,13 @@ I created wireframes in the balsamiq program as first visual concept of the webs
 
 ![Desktop Wireframe](documentation/images/mobile-wireframe.png)
 
+## Updates from original wireframes
+* Congratulations and What's next section - I decided to expand congratulations to make a bond with potential client. What's next section I made more visable for the user.
+* Gallery - I've changed layout of the gallery for a modern view, with 4 columns at desktop view, 2 columns at tablet view, and 1 column at mobile view. I add fancybox to the gallery as suggested my mentor.
+* About section - I decided to change places of image with text.
+* Contact Page - I decided to add a photo and kind words for the user before contact form. I made vertical form to look like a piece of paper. I added one input "What package are you interested in?" to the form. I changed input type to checkbox for "How did you find me?".
+* On the mobile view I changed logo position from centre to the left side. 
+
 # Features
 ## Navigation Bar
 * The navigation bar style is consistent. It will navigate user through the website. Main bar includes links to the Home, About and Contact page, while hovering on the Wedding it shows submenu which includes link to the Portfolio, Packages & Prices and Reviews page. For the screen of maximum size 960 pixels element of the menu will shrink font size from 28 px to 20 px and for the mobile screen of maximum size 480 pixels navbar will change for the humberger menu on the right and logo on the left.
@@ -107,7 +114,7 @@ I created wireframes in the balsamiq program as first visual concept of the webs
 ![Gallery View Mobile](documentation/images/gallery-mobile.png)
 
 ## Contact Button
-* This section contains a link, styled like a button, forwarding to a Contact Page. To style this element I used CSS:hover library and chose float animation. User can find "Contact Button" in the end of the all pages, exlude Home Page which has "What's next" section and Contact Page which doesn't need a link to it.
+* This section contains a link, styled like a button, forwarding to a Contact Page. To style this element I used CSS:hover library and chose grow animation. User can find "Contact Button" in the end of the all pages, exlude Home Page which has "What's next" section and Contact Page which doesn't need a link to it.
 
 ![Contact Button](documentation/images/contact-button.png)
 
@@ -204,7 +211,7 @@ I created wireframes in the balsamiq program as first visual concept of the webs
 ### Returning Visitors Goals
 * As a Returning Visitor, I want to find price list and packeges.
     - I navigate myself to "Wedding" menu on the navigation bar and from dropdown menu I select "Price & Packages" position. Unless I use mobile then from the hamburger menu I choose "Price & Packages".
-    - On the Price & Packages page I can easli understand that this photographer has two packages to choose and both have price tag. I can add more products and/or services to it if I want. 
+    - On the Price & Packages page I can easly understand that this photographer has two packages to choose and both have price tag. I can add more products and/or services to it if I want. 
 * As a Returning Visitor, I want to contact with photographer to check her 
 availability for my wedding date.
     - I navigate myself to "Contact" menu on the navigation bar. Unless I use mobile then from the hamburger menu I choose "Contact".
@@ -311,7 +318,10 @@ customers.
 * [CSS reset](https://meyerweb.com/eric/tools/css/reset/) - I used css reset to reset all styles settings in the browser.
 * [Hamburger menu in Javascript](https://www.youtube.com/watch?v=ydZc17rlR5E) - I used Javascript code to make hamburger menu works on the mobile view.
 * [Responsive Image Grid for Portfolio Gallery](https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp) - I used Responsive Image Grid on the Portfolio Page.
+* [Fancybox](https://fancyapps.com/docs/ui/fancybox/plugins/image/) - I used code for portfolio page to enlarge the photos.
 ## Other
 * [Random name generator](https://www.behindthename.com/random/) - I generate random names for fake clients reviews.
 * [Reviews about photographer](https://www.google.com/search?q=wedding+photographer+cardiff&tbm=lcl&sxsrf=ALeKk0171Aoepdz-NCRvxKKyN_iCIhC9Lw%3A1628610435059&ei=g58SYZ7-AoOo8gLr4q5I&oq=wedding+photographer+cardiff&gs_l=psy-ab.12...0.0.0.12140.0.0.0.0.0.0.0.0..0.0....0...1c..64.psy-ab..0.0.0....0.SIZkvfOa0EQ#rlfi=hd:;si:;mv:[[51.5405251,-3.0837762],[51.4454608,-3.2447312999999998]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:14) - I pick four random reviews from google reviews about photographers based in Cardiff.
-* [Compressed size of the images](https://tinypng.com/) - I used this website to compress the sizes of the images for quicker page loading.
+* [TinyPNG](https://tinypng.com/) - I used this website to compress the sizes of the images for quicker page loading.
+## Acknowledgments
+I'd like to thank my mentor Tim Nelson for providing suggestions to improve my site. Also to the people (Daniel and Manni) on the slack for sharing their's opinion.
