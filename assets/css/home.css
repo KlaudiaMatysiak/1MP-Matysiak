@@ -33,6 +33,7 @@ header {
     position: absolute;
     bottom: 1px;
     color: rgba(255, 255, 255, 0.4);
+    z-index: 1;
 }
 
 /* Content */
@@ -66,10 +67,15 @@ header {
     font-size: 20px;
 }
 
+.next-section {
+    background-image: linear-gradient(to top,#ffffff, #efdbd8b4);
+}
+
 .next {
+    text-align: center;
     font-size: 22px;
     font-weight: bold;
-    padding: 90px 0 30px 0;
+    padding: 30px 0 30px 0;
 }
 
 .btn-wrapper {
@@ -86,7 +92,7 @@ header {
     .down {
         display: none;
     }
-    
+
     .home-subtext {
         max-width: 100vh;
     }
