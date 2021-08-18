@@ -198,7 +198,7 @@ I created wireframes in the balsamiq program as first visual concept of the webs
 ![Thanks section mobile](documentation/images/thanks-contact-mobile.png)
 
 ## Contact Form
-* This section contains contact form that user can send to the photographer asking for her availability. In the form user is required to fill in First Name, Email address, Mobile number, Wedding Date and Reception Venue. As on optional areas to fill in are "What package are you interested in?", "Tell me more about you and your vision for a wedding day", and "How did you find me?".
+* This section contains contact form that user can send to the photographer asking for her availability. In the form user is required to fill in First Name, Email address, Mobile number, Wedding Date, Reception Venue, and "What package are you interested in?". As on optional areas to fill in are "Tell me more about you and your vision for a wedding day", and "How did you find me?".
 * Desktop and Tablet View 
 
 ![Desktop and Tablet Contact Form](documentation/images/contact-form.png)
