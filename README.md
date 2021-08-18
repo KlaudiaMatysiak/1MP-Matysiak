@@ -38,10 +38,11 @@ I created wireframes in the balsamiq program as first visual concept of the webs
 
 ## Updates from original wireframes
 * Congratulations and What's next section - I decided to expand congratulations to make a bond with potential client. What's next section I made more visable for the user.
+* Icon link that takes user to the end of page - I added it on the page to make sure that user is not missing whole content of the home page.
 * Gallery - I've changed layout of the gallery for a modern view, with 4 columns at desktop view, 2 columns at tablet view, and 1 column at mobile view. I add fancybox to the gallery as suggested my mentor.
 * About section - I decided to change places of image with text.
 * Contact Page - I decided to add a photo and kind words for the user before contact form. I made vertical form to look like a piece of paper. I added one input "What package are you interested in?" to the form. I changed input type to checkbox for "How did you find me?".
-* On the mobile view I changed logo position from centre to the left side. 
+* On the mobile view I changed logo position from centre to the left side and elements in the footer are centered. 
 
 # Features
 ## Navigation Bar
@@ -60,13 +61,18 @@ I created wireframes in the balsamiq program as first visual concept of the webs
 
 ![Hero Image](documentation/images/hero-image.png)
 
+## Icon 
+* Font Awesome Icon gets user to down of the page to the Congratulations section.
+
+![Icon](documentation/images/down-button.png)
+
 ## Congratulations
 * Section contain congratulations for user's engagement. User should feel welcome, appreciate and special on the website, and know that can find here good and experienced photographer for their wedding.
 
 ![Congratulation](documentation/images/congratulations.png)
 
 ## What's next?
-* Section contain appealing buttons which point direction that user can take next on the website. It has background gradient of main colors to make visible section break.
+* Section contains appealing buttons which point direction that user can take on the website. It has background gradient of main colors to make visible section break.
 
 ![What's next?](documentation/images/next.png)
 
@@ -98,7 +104,7 @@ I created wireframes in the balsamiq program as first visual concept of the webs
 ![Contact Title](documentation/images/title-5.png)
 
 ## Portfolio Gallery
-* Gallery section contains wedding pictures taken by a photographer. It is valuable part of the website to the user to easily identify photography style and approach. For the Gallery used CSS GRID code is used so it is responsive on all the devices.
+* Gallery section contains wedding pictures taken by a photographer. It is valuable part of the website to the user to easily identify photography style and approach of the photographer. For the Gallery I used CSS GRID code to make it responsive on all the devices.
 * Desktop View 
 
 ![Portfolio Desktop](documentation/images/portfolio.png)
@@ -118,7 +124,7 @@ I created wireframes in the balsamiq program as first visual concept of the webs
 ![Gallery View Mobile](documentation/images/gallery-mobile.png)
 
 ## Contact Button
-* This section contains a link, styled like a button, forwarding to a Contact Page. To style this element I used CSS:hover library and chose grow animation. User can find "Contact Button" in the end of the all pages, exlude Home Page which has "What's next" section and Contact Page which doesn't need a link to it.
+* This section contains a link, styled like a button, forwarding to a Contact Page. To style this element I used CSS:hover library and chose grow animation. User can find "Contact Button" in the end of the all pages, exlude Home Page which has "What's next" section and Contact Page which doesn't need a link to it self.
 
 ![Contact Button](documentation/images/contact-button.png)
 
@@ -151,7 +157,7 @@ I created wireframes in the balsamiq program as first visual concept of the webs
 ![Types of photoshoots Mobile](documentation/images/photoshoot-mobile.png)
 
 ## Reviews
-* Section contains a reviews from clients of the photographer Krystine Monté that user can read positive recomendation. I used Random Name Generator and search for Google Reviews about Cardiff photographers to make a reviews from non-existing clients.
+* Section contains a reviews from clients of the photographer. I used Random Name Generator for client's names and search for Google Reviews for Cardiff photographers to add a reviews from non-existing clients of Krystine Monté.
 * Desktop view
 
 ![Review Desktop](documentation/images/review.png)
@@ -167,7 +173,7 @@ I created wireframes in the balsamiq program as first visual concept of the webs
 ## About
 * Section contains: 
     - header with greetings from Krystine Monté,
-    - paragraphs about Krystine Monté and her experience,
+    - paragraphs about Krystine Monté and her wedding experience,
     - image of Krystine Monté.
 * Desktop View 
 
@@ -202,6 +208,7 @@ I created wireframes in the balsamiq program as first visual concept of the webs
 ![Mobile Contact Form](documentation/images/contact-form-mobile.png)
 
 # Testing
+Testing was undertaken throughout all the stages of the project. I used the Google Dev Tools, Lighthouse, HTML and CSS Validators. The desktop view of the website was tested on the Google Chrome, Firefox and Microsoft Edge. The Tablet view was tested on the Samsung Galaxy Tab III. The Mobile view was tested on the iPhone 11, iPhone 12, iPhone 12 Pro and Samsung Galaxy A40. 
 ## Testing User Stories from User Experience
 ### First Time Visitor Goals
 * As a First Time Visitor, I want to easly navigate through the web page to find content and understand main purpose of the website.
@@ -330,4 +337,4 @@ customers.
 * [Reviews about photographer](https://www.google.com/search?q=wedding+photographer+cardiff&tbm=lcl&sxsrf=ALeKk0171Aoepdz-NCRvxKKyN_iCIhC9Lw%3A1628610435059&ei=g58SYZ7-AoOo8gLr4q5I&oq=wedding+photographer+cardiff&gs_l=psy-ab.12...0.0.0.12140.0.0.0.0.0.0.0.0..0.0....0...1c..64.psy-ab..0.0.0....0.SIZkvfOa0EQ#rlfi=hd:;si:;mv:[[51.5405251,-3.0837762],[51.4454608,-3.2447312999999998]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:14) - I pick four random reviews from google reviews about photographers based in Cardiff.
 * [TinyPNG](https://tinypng.com/) - I used this website to compress the sizes of the images for quicker page loading.
 ## Acknowledgments
-I'd like to thank my mentor Tim Nelson for providing suggestions to improve my site. Also to the people on the slack for sharing their's opinion, especially for Daniel Callaghan who helped me with grammar.
+I'd like to thank my mentor Tim Nelson for providing suggestions to improve my site. Also to the people on the slack for sharing their's opinion, especially for Daniel Callaghan who helped me with grammar on the website.
